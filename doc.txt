@@ -1,0 +1,34 @@
+NodeJs é uma plataforma que roda o backend usando JavaScript
+    Arquitetura Event-loop - Baseada em Eventos - SingleThread 
+    Non-Blicking I/O (Input/Ouput não bloqueante)
+    Processamento estilo Pilha (Ultimo vai ser o primeiro)
+NPM são gerenciadores de pacotes. Permite instalar/fornecer bibliotecas. 
+ExpressJS não tem opinião
+API Rest
+    Requisição
+    Usa os metodos HTTP
+        GET (Acessar)
+        POST (Criar)
+        PUT (Alterar)
+        DELETE (Deletar)
+    Usa os recurso/rota
+    Multiplos front com o mesmo backend
+    JSON
+        Body / Corpo da Requisição
+    HTTP Codes
+        1xx (Informação)
+        2xx (Sucesso)
+        3xx (Redirecionamento)
+        4xx (Erros no cliente)
+        5xx (Erros no servidor)
+    
+    Middlewares são formar de manipular as requisições
+        
+
+comandos:
+    yarn init -y
+    yarn add express 
+
+    yarn (instala tudo!)
+
+
